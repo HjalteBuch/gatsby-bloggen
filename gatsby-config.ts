@@ -14,9 +14,10 @@ const config: GatsbyConfig = {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `content`,
-                path: `${__dirname}/src/content`,
+                path: `/Users/hjalte/Library/CloudStorage/OneDrive-Personal/Obsidian Vault/Bloggen`,
             },
         },
+        `gatsby-transformer-remark`,
     ],
 }
 
