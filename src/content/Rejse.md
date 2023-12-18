@@ -2,7 +2,7 @@
 slug: rejse
 date: "2023-07-20"
 title: Rejse
-thumbnail: ../images/Rejse.jpg
+image01: "../images/Rejse.jpg"
 ---
 # Okinawa
 
