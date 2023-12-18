@@ -1,7 +1,8 @@
 ---
-slug: Tokyo
+slug: tokyo
 date: "2023-03-29"
 title: Tokyo
+thumbnail: ../images/Tokyo.jpg
 ---
 
 # Kiba

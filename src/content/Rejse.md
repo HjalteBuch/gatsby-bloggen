@@ -1,7 +1,8 @@
 ---
-slug: Rejse
+slug: rejse
 date: "2023-07-20"
 title: Rejse
+thumbnail: ../images/Rejse.jpg
 ---
 # Okinawa
 

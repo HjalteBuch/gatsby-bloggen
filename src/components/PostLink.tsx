@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
   <div>
-    <Link to={"/blog/"+post.frontmatter.slug.toLowerCase()}>
+    <Link to={"/blog/" + post.frontmatter.slug}>
+        <img src={`images/${post.frontmatter.title}.jpg`} alt={post.frontmatter.title}></img>
       {post.frontmatter.title} ({post.frontmatter.date})
     </Link>
   </div>
