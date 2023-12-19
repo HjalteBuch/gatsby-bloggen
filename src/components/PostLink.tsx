@@ -1,23 +1,40 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const outer = {
-    margin: 0,
-    padding: 0,
+const article = {
+    height: '100%',
+    position: 'relative',
+    overflow: 'hidden',
 }
 
 const image = {
-    margin: 0,
     width: '100%',
-    padding: 0,
+    height: '100%',
+    objectFit: 'cover',
 }
 
-        // <img style={image} src={`../images/${post.frontmatter.title}.jpg`} alt={post.frontmatter.title}></img>
+const header = {
+    fontSize: '80px',
+    color: 'white',
+    textAlign: 'center',
+    position: 'absolute',
+    top: 0,
+    bottom: 1000,
+    left: 0,
+    right: 0,
+    height: 'fit-content',
+    margin: 'auto',
+}
+
 const PostLink = ({ post }) => (
   <div>
-    <Link to={"/blog/" + post.frontmatter.slug}>
-        <img style={image} src={post.frontmatter.image01.publicURL} alt={post.frontmatter.title}></img>
-      {post.frontmatter.title} ({post.frontmatter.date})
+    <Link style={article} to={"/blog/" + post.frontmatter.slug}>
+        <img 
+            style={image}
+            src={post.frontmatter.image01.publicURL} 
+            alt={post.frontmatter.title}
+        ></img>
+        <h1 style={header}>{post.frontmatter.title} ({post.frontmatter.date})</h1>
     </Link>
   </div>
 )
