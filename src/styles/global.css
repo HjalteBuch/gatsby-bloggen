@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .outer  {
     margin: 0;
     padding: 0;
@@ -9,27 +11,34 @@ body {
 
 .intro {
     text-align: center;
-}
-
-.description {
-    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
 }
 
 .article {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.article:hover {
+.image-container:hover {
     -webkit-filter: blur(4px);
     filter: blur(4px);
 }
 
 .image {
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .header {
@@ -37,10 +46,21 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -400%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: fit-content;
-    width:100%;
     margin: auto;
+}
+
+.description {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 600px) {
+    .intro {
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
 }
