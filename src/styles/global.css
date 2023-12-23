@@ -30,7 +30,7 @@ body {
     overflow: hidden;
 }
 
-.image-container:hover {
+.image-container:hover .image{
     -webkit-filter: blur(4px);
     filter: blur(4px);
 }
@@ -62,5 +62,8 @@ body {
     .intro {
         padding-left: 10vh;
         padding-right: 10vh;
+    }
+
+    .header {
     }
 }
