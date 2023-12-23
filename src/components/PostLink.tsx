@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
-  <div>
+<div>
     <Link className="article" to={"/blog/" + post.frontmatter.slug}>
         <div className="image-container">
             <img 
@@ -13,8 +13,8 @@ const PostLink = ({ post }) => (
             <h1 className="header">{post.frontmatter.title}</h1>
         </div>
     </Link>
-    <p>description: {post.frontmatter.description}</p>
-  </div>
+    <p className="article-description">{post.frontmatter.description}</p>
+</div>
 )
 
 export default PostLink
