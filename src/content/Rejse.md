@@ -2,7 +2,7 @@
 slug: rejse
 date: "2023-07-20"
 title: Rejse
-image01: "../images/Rejse.jpg"
+thumbnail: "../images/Rejse.jpg"
 description: "Her rejste vi rundt i det sydlige japan, det var mega nice"
 ---
 # Okinawa

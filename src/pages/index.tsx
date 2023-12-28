@@ -34,7 +34,7 @@ export const pageQuery = graphql`
             slug
             title
             description
-            image01 {
+            thumbnail {
                 publicURL
             }
           }

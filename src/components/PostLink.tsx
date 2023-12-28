@@ -7,7 +7,7 @@ const PostLink = ({ post }) => (
         <div className="image-container">
             <img 
                 className="image"
-                src={post.frontmatter.image01.publicURL} 
+                src={post.frontmatter.thumbnail.publicURL} 
                 alt={post.frontmatter.title}
             ></img>
             <h1 className="header">{post.frontmatter.title}</h1>

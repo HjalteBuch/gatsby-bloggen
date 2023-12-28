@@ -2,7 +2,7 @@
 slug: tokyo
 date: "2023-03-29"
 title: Tokyo
-image01: "../images/Tokyo.jpg"
+thumbnail: "../images/Tokyo.jpg"
 description: "Her boede jeg i alt 4 m[neder hvor jeg kom vidt omkring og oplevede forskellige sjove ting"
 ---
 
